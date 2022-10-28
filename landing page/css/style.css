@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.header {
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(16, 16, 19, .9);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flexy {
+    color: orangered;
+}
+
+
+.header__name {
+    font-size: 1.6rem;
+    padding: 0 3rem;
+    margin-right: 5rem;
+    scale: (1);
+    transition: all .2s;
+}
+
+.header__name:hover {
+    transform: scale(1.05);
+}
+
+
+.header__help {
+    padding: 0 2rem;
+}
+
+.header__help-support {
+    color: rgba(180, 160, 160, 0.8);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.header__help-number {
+    font-size: 1.6rem;
+}
+
+.section__about {
+    height: 70rem;
+    background-image: linear-gradient(to right bottom,
+            rgba(18, 4, 68, .7),
+            rgba(36, 22, 161, .7)),
+        url(../img/laundry-1.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content {
+    color: white;
+    margin-top: 20rem;
+}
+
+.content__topic {
+    font-size: 2rem;
+    margin-top: -4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: peru;
+}
+
+.content__heading {
+    font-style: 1.9rem;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.content__body {
+    color: coral;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.content__list {
+    list-style: none;
+    font-size: 1.7rem;
+    color: goldenrod;
+}
+
+
+.form {
+    margin-top: 3rem;
+
+    width: 35rem;
+    height: 30rem;
+    background-image: linear-gradient(to right bottom, rgba(161, 228, 5, .8), rgba(223, 29, 29, .8));
+}
+
+.form__header {
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.form__header-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+
+.form__heading {
+    text-align: center;
+}
+
+.form__email {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.form__email-1 {
+    height: 3rem;
+}
+
+.form__password {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.form__password-1 {
+    height: 3rem;
+}
+
+.form__label {}
+
+
+.form__submit {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form__submit-button {
+    text-align: center;
+}
+
+.form__check {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.form__checkbox {
+    width: 1rem;
+}
+
+.form__fgre {
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
